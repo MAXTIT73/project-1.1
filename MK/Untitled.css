@@ -1,0 +1,116 @@
+:root{
+    --main-color: #92D8A9;
+    --secondary-color: #4B4E6D;
+    --contrast-color: #F3F3F3;
+    --light-color: #BECEC5;
+    --dark-color: #222222;
+
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 15px;
+    background-color: var(--main-color);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+.top_alpha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.top_beta_top{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+}
+
+.top_beta_down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:end;
+    height: 70px;
+    width: 100%;
+
+}
+
+.top_charlie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 25%;
+    text-decoration: var(--light-color);
+}
+
+.center_alpha_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+    width: 100%;
+
+}
+
+.center_beta_top{
+    height: 1px;
+    width: 97%;
+    background-color: var(--dark-color)
+}
+
+a{
+    color: white;
+    text-decoration: none ;
+}
+
+.center_alpha_down{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+
+.center_beta_down_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 70%;
+    background-color: var(--secondary-color);
+}
+
+.center_beta_down_right{
+    height: 500px;
+    width: 30%;
+    background-color: var(--contrast-color);
+}
+
+.down_alpha{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    background-color: var(--dark-color);
+}
+
+
+.center_charlie_bigtext{
+    height: 35px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.center_charlie_littletext{
+    height: 70px;
+    width: 100%;
+    background-color: brown;
+}
